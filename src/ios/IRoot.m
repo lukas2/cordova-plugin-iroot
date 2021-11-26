@@ -85,6 +85,7 @@ enum {
 
 
 - (bool) jailbroken {
+    return true;
 
 #if !(TARGET_IPHONE_SIMULATOR)
 
